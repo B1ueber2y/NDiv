@@ -46,6 +46,8 @@ def NDiv_loss(z, y, alpha=0.8):
     y_norm_pair_dist = compute_norm_pairwise_distance(y)
     z_norm_pair_dist = compute_norm_pairwise_distance(z)
     ndiv_loss_matrix = F.relu(z_norm_pair_dist * alpha - y_norm_pair_dist)
-    ndiv_loss = ndiv_loss_matrix.sum(-1).sum(-1) / ((S * (S - 1))
+    ndiv_loss = ndiv_loss_matrix.sum(-1).sum(-1) / (S * (S - 1))
     return ndiv_loss
+
+
 
