@@ -6,7 +6,7 @@ cfg_dict = {
     "IMG_DIR": os.path.join(OUTPUT_DIR, 'img_grid'),
     "MODEL_DIR": os.path.join(OUTPUT_DIR, 'models_grid'),
 
-    "epoch": 100000,
+    "epoch": 10000,
     "batch_size": 128,
     "alpha": 0.5,
     
@@ -17,7 +17,7 @@ cfg_dict = {
         "sig": 0.05**2
     },
 
-    "show_step": 2000,
+    "show_step": 25,
     "load_model":False,
     "use_gpu": True,
 

@@ -24,6 +24,8 @@ def visualize_G(i, IMG_DIR, nets, N, show_dataset=True, kde=False, dim1=0, dim2=
     plot_outputdata(data, dim1=dim1, dim2=dim2, marker='kx', alpha=alpha)
     plot_outputdata(out_data, dim1=dim1, dim2=dim2, marker='.', alpha=alpha)
     plt.show()
+    plt.xlim((-5,5))
+    plt.ylim((-5,5))
     plt.axis('off')
     fname = os.path.join(IMG_DIR, 'img_{}.png'.format(i))
     plt.savefig(fname)
