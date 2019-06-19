@@ -1,0 +1,3 @@
+[submodule "gan_cifar"]
+	path = gan_cifar
+	url = /home/zhang7/ndiv/gan_cifar
