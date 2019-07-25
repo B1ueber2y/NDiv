@@ -1,4 +1,7 @@
 # NDiv for 5x5 Gaussian
+
+![prediction example](./docs/gaussian.pdf)
+
 The code is based on the [BourGAN](https://arxiv.org/abs/1805.07674) implementation at https://github.com/a554b554/BourGAN.
 To reproduce the experiments on the Gaussian grid:
 ```
